@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | Assia Aouimeur</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;1,9..40,300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- ══ NAV ══ -->
+    <nav>
+        <div class="logo">AA.</div>
+        <ul>
+            <li><a href="#about">Formation</a></li>
+            <li><a href="#experience">Expérience</a></li>
+            <li><a href="#projects">Projets</a></li>
+            <li><a href="#skills">Compétences</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- ══ HERO ══ -->
+    <header class="hero">
+        <div class="hero-content">
+            <span class="hero-tag">BUT Sciences des Données · EMS</span>
+            <h1>Je suis <span class="highlight">Assia<br>Aouimeur</span></h1>
+            <p class="hero-sub">Etudiante en troisième année <strong>BUT Science des données</strong></p>
+            <a href="#projects" class="btn-hero">Explorer mes projets →</a>
+        </div>
+    </header>
+
+    <!-- ══════════════════════════════════════════
+         SECTION 1 — PARCOURS ACADÉMIQUE
+    ══════════════════════════════════════════ -->
+    <section id="about" class="container">
+        <span class="section-label">Parcours</span>
+        <h2 class="section-title">Formation<br><span class="highlight">Académique</span></h2>
+
+        <div class="edu-timeline">
+
+            <!-- Ligne animée -->
+            <div class="edu-track">
+                <div class="edu-track-fill" id="trackFill"></div>
+            </div>
+
+            <!-- STEP 1 — BUT -->
+            <div class="edu-step" data-delay="0">
+                <div class="edu-dot"></div>
+                <div class="edu-card">
+                    <span class="edu-year">2023 – 2026</span>
+                    <h3>BUT Sciences des Données – EMS</h3>
+                    <p class="edu-institution">IUT de Paris Rives de Seine · Spécialité Exploration et Modélisation Statistique</p>
+                    <div class="edu-tags">
+                        <span class="edu-tag">Python</span>
+                        <span class="edu-tag">R / RStudio</span>
+                        <span class="edu-tag">SQL</span>
+                        <span class="edu-tag">Statistiques appliquées</span>
+                        <span class="edu-tag">Data Visualisation</span>
+                        <span class="edu-tag">Modélisation décisionnelle</span>
+                        <span class="edu-tag">Data Wrangling</span>
+                    </div>
+                </div>
+                <!-- Flèche vers step suivant -->
+                <div class="edu-arrow">
+                    <svg viewBox="0 0 12 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M6 0L6 10M6 10L2 6M6 10L10 6" stroke="#ff7f50" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                </div>
+            </div>
+
+            <!-- STEP 2 — BAC -->
+            <div class="edu-step" data-delay="300">
+                <div class="edu-dot"></div>
+                <div class="edu-card">
+                    <span class="edu-year">2023</span>
+                    <h3>Baccalauréat Général</h3>
+                    <p class="edu-institution">Spécialités : NSI · SES</p>
+                    <div style="margin-top: 14px;">
+                        <span class="mention-badge">✦ Mention Bien</span>
+                    </div>
+                    <div class="edu-tags">
+                        <span class="edu-tag">Numérique & Sciences Informatiques</span>
+                        <span class="edu-tag">Sciences Économiques & Sociales</span>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- ══════════════════════════════════════════
+         SECTION 2 — EXPÉRIENCES PROFESSIONNELLES
+    ══════════════════════════════════════════ -->
+    <section id="experience" class="container">
+        <span class="section-label">Carrière</span>
+        <h2 class="section-title">Expériences<br><span class="highlight">Professionnelles</span></h2>
+
+        <div class="exp-grid">
+
+            <!-- SANOFI -->
+            <div class="exp-card" data-delay="0">
+                <div class="exp-header">
+                    <!-- Remplace la div ci-dessous par <div class="exp-logo"><img src="logo-sanofi.png" alt="Sanofi"></div> si tu as le logo -->
+                    <div class="exp-logo-text logo-sanofi">S</div>
+                    <div class="exp-header-info">
+                        <p class="exp-role">Business Analyst · Alternance</p>
+                        <p class="exp-company">
+                            <strong>Sanofi</strong>
+                            <span>·</span>
+                            Gentilly
+                            <span>·</span>
+                            Sept. 2025 – Présent
+                        </p>
+                    </div>
+                    <div class="exp-status">
+                        <span class="dot"></span>
+                        En cours
+                    </div>
+                </div>
+                <div class="exp-body">
+                    <p class="exp-subject">Pilotage de la performance commerciale Hôpital · Pôle Excellence Commerciale</p>
+                    <ul class="exp-missions">
+                        <li>Élaboration des prévisionnels de ventes et analyse chiffrée de la performance des produits hospitaliers via Excel et Power BI</li>
+                        <li>Pilotage des indicateurs clés de performance (KPI) et création de reportings d'activité en assurant la fiabilité des données</li>
+                        <li>Optimisation d'outils d'aide à l'analyse et collaboration transverse avec les services internes pour le suivi de l'activité commerciale</li>
+                    </ul>
+                    <div class="exp-tools">
+                        <span class="exp-tool">Excel</span>
+                        <span class="exp-tool">Power BI</span>
+                        <span class="exp-tool">CRM Interne</span>
+                        <span class="exp-tool">SharePoint</span>
+                        <span class="exp-tool">Teams</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- COCHRANE -->
+            <div class="exp-card" data-delay="200">
+                <div class="exp-header">
+                    <!-- Remplace par <div class="exp-logo"><img src="logo-cochrane.png" alt="Cochrane"></div> si tu as le logo -->
+                    <div class="exp-logo-text logo-cochrane">C</div>
+                    <div class="exp-header-info">
+                        <p class="exp-role">Stagiaire Data Analyst</p>
+                        <p class="exp-company">
+                            <strong>Cochrane France · AP-HP Hôtel-Dieu</strong>
+                            <span>·</span>
+                            Avr. – Juin 2025
+                        </p>
+                    </div>
+                </div>
+                <div class="exp-body">
+                    <p class="exp-subject">Méta-analyses cumulatives d'essais randomisés contrôlés</p>
+                    <ul class="exp-missions">
+                        <li>Collecte, nettoyage et structuration de données issues d'essais cliniques à partir de bases scientifiques internationales</li>
+                        <li>Réalisation de méta-analyses classiques et cumulatives pour synthétiser les preuves existantes</li>
+                        <li>Création de graphes forestiers, courbes cumulatives et analyses de sensibilité</li>
+                    </ul>
+                    <div class="exp-tools">
+                        <span class="exp-tool">R</span>
+                        <span class="exp-tool">RStudio</span>
+                        <span class="exp-tool">{meta}</span>
+                        <span class="exp-tool">{metafor}</span>
+                        <span class="exp-tool">{dmetar}</span>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- ══════════════════════════════════════════
+         SECTION 3 — PROJETS
+    ══════════════════════════════════════════ -->
+    <section id="projects" class="container">
+        <span class="section-label">Réalisations</span>
+        <h2 class="section-title">Mes <span class="highlight">Projets</span></h2>
+
+        <div class="projects-showcase">
+
+            <div class="project-wide-card">
+                <div class="project-image">
+                    <img src="https://images.unsplash.com/photo-1642790106117-e829e14a795f?w=800&q=80" alt="Risque Bancaire">
+                </div>
+                <div class="project-details">
+                    <span class="project-tag">Power BI · Statistique · Risque</span>
+                    <h3>Analyse du Risque Bancaire</h3>
+                    <p>Analyse de 102 443 dossiers. Dashboard interactif incluant suivi de performance, optimisation du risque et santé du portefeuille.</p>
+                    <div class="project-btns">
+                        <a href="images\imageRisquebancaire" target="_blank" class="btn-main">📄 Dashboard</a>
+                        
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-wide-card">
+                <div class="project-image">
+                    <img src="https://images.unsplash.com/photo-1576086213369-97a306d36557?auto=format&fit=crop&q=80" alt="Épidémiologie">
+                </div>
+                <div class="project-details">
+                    <span class="project-tag">R · Régression Logistique · Santé</span>
+                    <h3>Contrôle de l'Asthme en Jordanie</h3>
+                    <p>Étude épidémiologique utilisant des modèles de régression multivariée pour identifier les facteurs influençant le contrôle de l'asthme.</p>
+                    <div class="project-btns">
+                        <a href=images\Rapport_epidemiologie_Jordanie_ALI_AOUIMEUR_DRIS_ZIDA.pdf target="_blank" class="btn-main">📄 Lire le Rapport</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-wide-card">
+                <div class="project-image">
+                    <img src="https://images.unsplash.com/photo-1614935151651-0bea6508db6b?w=800&q=80" alt="Clinical Trial">
+                </div>
+                <div class="project-details">
+                    <span class="project-tag">R · Biostatistique · SAS style</span>
+                    <h3>Essai Clinique : Voxelotor</h3>
+                    <p>Analyse de phase III (Voxelotor vs Placebo). Plan d'analyse statistique (SAP), tests de Fisher et ANCOVA.</p>
+                    <div class="project-btns">
+                        <a href="images\ALI_AOUIMEUR_DRIS_ZIDAN_rapportClinicalTrial (2).pdf" target="_blank" class="btn-main">📄 Rapport d'Essai</a>
+                    </div>
+                </div>
+            </div>
+
+            
+
+        </div>
+    </section>
+
+    <!-- ══════════════════════════════════════════
+         SECTION 4 — COMPÉTENCES & SAVOIR-ÊTRE
+    ══════════════════════════════════════════ -->
+    <section id="skills" class="container">
+        <span class="section-label">Expertise</span>
+        <h2 class="section-title">Compétences<br><span class="highlight">&amp; Savoir-être</span></h2>
+
+        <div class="skills-layout">
+
+            <!-- Bloc 1 — Modélisation -->
+            <div class="skill-block" data-delay="0">
+                <div class="skill-block-title">
+                    <div class="skill-block-icon">📊</div>
+                    <h3>Modélisation &amp; Statistiques</h3>
+                </div>
+                <div class="skill-chips">
+                    <span class="chip"><span class="chip-dot"></span>ACP</span>
+                    <span class="chip"><span class="chip-dot"></span>Clustering K-means / CAH</span>
+                    <span class="chip"><span class="chip-dot"></span>Régression logistique</span>
+                    <span class="chip"><span class="chip-dot"></span>Random Forest</span>
+                    <span class="chip"><span class="chip-dot"></span>Méta-analyses</span>
+                    <span class="chip"><span class="chip-dot"></span>Analyse multivariée</span>
+                    <span class="chip"><span class="chip-dot"></span>ANCOVA / ANOVA</span>
+                    <span class="chip"><span class="chip-dot"></span>SAS / RStudio</span>
+                </div>
+            </div>
+
+            <!-- Bloc 2 — Programmation -->
+            <div class="skill-block" data-delay="100">
+                <div class="skill-block-title">
+                    <div class="skill-block-icon">💻</div>
+                    <h3>Programmation &amp; Outils</h3>
+                </div>
+                <div class="skill-chips">
+                    <span class="chip"><span class="chip-dot"></span>Python</span>
+                    <span class="chip"><span class="chip-dot"></span>R</span>
+                    <span class="chip"><span class="chip-dot"></span>SQL</span>
+                    <span class="chip"><span class="chip-dot"></span>HTML / CSS</span>
+                    <span class="chip"><span class="chip-dot"></span>Power BI (DAX)</span>
+                    <span class="chip"><span class="chip-dot"></span>Excel avancé</span>
+                    <span class="chip"><span class="chip-dot"></span>NoSQL / MongoDB</span>
+                    <span class="chip"><span class="chip-dot"></span>Linux</span>
+                    <span class="chip"><span class="chip-dot"></span>Access</span>
+                    <span class="chip"><span class="chip-dot"></span>Cloud</span>
+                </div>
+            </div>
+
+            <!-- Bloc 3 — Soft Skills -->
+            <div class="skill-block wide" data-delay="200">
+                <div class="skill-block-title">
+                    <div class="skill-block-icon">✨</div>
+                    <h3>Savoir-être</h3>
+                </div>
+                <div class="soft-grid">
+                    <div class="soft-card">
+                        <span class="soft-emoji">🎯</span>
+                        <p>Rigueur &amp; précision analytique</p>
+                    </div>
+                    <div class="soft-card">
+                        <span class="soft-emoji">🤝</span>
+                        <p>Collaboration transverse</p>
+                    </div>
+                    <div class="soft-card">
+                        <span class="soft-emoji">🔍</span>
+                        <p>Esprit critique &amp; curiosité</p>
+                    </div>
+                    <div class="soft-card">
+                        <span class="soft-emoji">📢</span>
+                        <p>Communication des données</p>
+                    </div>
+                    <div class="soft-card">
+                        <span class="soft-emoji">⚡</span>
+                        <p>Adaptabilité &amp; autonomie</p>
+                    </div>
+                    <div class="soft-card">
+                        <span class="soft-emoji">🧩</span>
+                        <p>Résolution de problèmes</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Bloc 4 — Langues -->
+            <div class="skill-block wide" data-delay="300">
+                <div class="skill-block-title">
+                    <div class="skill-block-icon">🌍</div>
+                    <h3>Langues</h3>
+                </div>
+                <div class="lang-grid">
+                    <div class="lang-card-new">
+                        <span class="lang-flag">🇫🇷</span>
+                        <div class="lang-info">
+                            <div class="lang-name">Français</div>
+                            <div class="lang-level">Langue maternelle</div>
+                        </div>
+                        <span class="lang-badge">Natif</span>
+                    </div>
+                    <div class="lang-card-new">
+                        <span class="lang-flag">🇸🇦</span>
+                        <div class="lang-info">
+                            <div class="lang-name">Arabe</div>
+                            <div class="lang-level">Courant</div>
+                        </div>
+                        <span class="lang-badge">C2</span>
+                    </div>
+                    <div class="lang-card-new">
+                        <span class="lang-flag">🇪🇸</span>
+                        <div class="lang-info">
+                            <div class="lang-name">Espagnol</div>
+                            <div class="lang-level">Avancé</div>
+                        </div>
+                        <span class="lang-badge">C1</span>
+                    </div>
+                    <div class="lang-card-new">
+                        <span class="lang-flag">🇬🇧</span>
+                        <div class="lang-info">
+                            <div class="lang-name">Anglais</div>
+                            <div class="lang-level">Intermédiaire supérieur</div>
+                        </div>
+                        <span class="lang-badge">B2</span>
+                    </div>
+                    <div class="lang-card-new">
+                        <span class="lang-flag">🇮🇹</span>
+                        <div class="lang-info">
+                            <div class="lang-name">Italien</div>
+                            <div class="lang-level">Notions</div>
+                        </div>
+                        <span class="lang-badge">A2</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Bloc 5 — Centres d'intérêt -->
+            <div class="skill-block wide" data-delay="400">
+                <div class="skill-block-title">
+                    <div class="skill-block-icon">🌸</div>
+                    <h3>Centres d'intérêt</h3>
+                </div>
+                <div class="hobbies-row">
+                    <span class="hobby-chip">📚 Lecture · Romance</span>
+                    <span class="hobby-chip">🧵 Couture</span>
+                    <span class="hobby-chip">🍰 Pâtisserie</span>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- ══ FOOTER ══ -->
+    <footer id="contact">
+        <p>© 2026 · Assia Aouimeur</p>
+    </footer>
+
+    <script>
+        /* ── Animations au scroll ── */
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    const delay = parseInt(entry.target.dataset.delay || 0);
+                    setTimeout(() => entry.target.classList.add('visible'), delay);
+                }
+            });
+        }, { threshold: 0.15 });
+
+        document.querySelectorAll('.edu-step, .exp-card, .skill-block').forEach(el => {
+            observer.observe(el);
+        });
+
+        /* ── Remplissage de la ligne timeline ── */
+        const trackObserver = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    document.getElementById('trackFill').classList.add('animated');
+                }
+            });
+        }, { threshold: 0.1 });
+
+        const timeline = document.querySelector('.edu-timeline');
+        if (timeline) trackObserver.observe(timeline);
+    </script>
+
+</body>
+</html>
